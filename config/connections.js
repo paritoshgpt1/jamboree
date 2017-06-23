@@ -48,6 +48,14 @@ module.exports.connections = {
   //   database: 'YOUR_MYSQL_DB' //optional
   // },
 
+  jamboree: {
+    adapter: 'sails-mysql',
+    host: 'us-cdbr-iron-east-03.cleardb.net',
+    user: 'b32e2a60e425b8',
+    password: 'a19a8050',
+    database: 'heroku_96a341bdb21175b'
+  }
+
   /***************************************************************************
   *                                                                          *
   * MongoDB is the leading NoSQL database.                                   *
